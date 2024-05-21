@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#event-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+ 
+
+.reward-inputs {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.energy-ruler {
+  position: relative;
+  height: 140px;
+  border-bottom: 2px solid #1976d2;
+  margin-bottom: 20px;
+  /* Add space for labels */
+}
+
+.energy-mark-container {
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+.energy-mark {
+  width: 2px;
+  height: 20px;
+  background: #1976d2;
+}
+
+.reward {
+  position: absolute;
+  height: 20px;
+  background-color: rgba(25, 118, 210, 0.5);
+  border: 1px solid #1976d2;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-size: 12px;
+}
